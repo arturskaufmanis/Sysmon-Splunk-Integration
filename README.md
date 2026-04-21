@@ -3,7 +3,7 @@
 **Homelab portfolio project — Arturs Kaufmanis | ADForest.local | April 2026**
 
 ---
-
+(https://arturskaufmanis.github.io/Sysmon-Splunk-Integration/splunk-sysmon-troubleshooting.html)
 ## What This Is
 
 This project documents the troubleshooting and resolution of a Sysmon sourcetype misassignment in a Splunk Enterprise homelab environment. Sysmon events were ingesting correctly but landing under the generic `xmlwineventlog` sourcetype instead of the dedicated `XmlWinEventLog:Microsoft-Windows-Sysmon/Operational`, breaking targeted detection queries and dashboard reliability.
